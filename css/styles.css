@@ -34,6 +34,7 @@ body {
 }
 
 .navbar {
+    overflow: hidden;
     margin-bottom: 0;
     background-color: #2d2d30;
     font-family: Montserrat, sans-serif;
@@ -76,6 +77,16 @@ body {
 
 /* Dropdown */
 
+.dropdown {}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
 .open .dropdown-toggle {
     color: #fff;
     background-color: #555 !important;
@@ -110,6 +121,43 @@ body {
 
 
 /* Carousel*/
+
+.Carousel-one,
+.Carousel-two,
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.Background-Image {
+    /* The image used */
+    background-image: url("Black_and_white.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Carousel-one {
+    background-image: url('Images/tj-dragotta-578726-unsplash_corp.jpg');
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Carousel-two {
+    background-image: url('Images/jserra-girls-soccer-41.jpg');
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .carousel-caption img {
     /* -webkit-filter: grayscale(90%); */
