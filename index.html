@@ -241,6 +241,25 @@
             }
             prevScrollPos = currScrollPos;
         }
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+                if (scroll > screen.height - 160) {
+                    $(".navbar").css("background", "#2d2d30");
+
+                } else {
+                    $(".navbar").css("background", "rgb(0,0,0,0.0)");
+                }
+            })
+        })
+        $(document).click(function(event) {
+            var clickover = $(event.target);
+            var $navbar = $(".navbar-collapse");
+            // var _opened = $navbar.hasClass("in");
+            if (!clickover.hasClass("navbar-toggle")) {
+                $navbar.collapse('hide');
+            }
+        });
     </script>
 </body>
 

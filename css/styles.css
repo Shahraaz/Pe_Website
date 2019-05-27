@@ -41,7 +41,7 @@ nav {
 .navbar {
     overflow: hidden;
     margin-bottom: 0;
-    background-color: #2d2d30;
+    background-color: rgb(0, 0, 0, 0.0);
     font-family: Montserrat, sans-serif;
     border: 0;
     font-size: 11px !important;
