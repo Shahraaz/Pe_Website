@@ -6,6 +6,7 @@
 
 /* Overwrite default styles of h3 and h4 */
 
+h1,
 h3,
 h4 {
     margin: 10px 0 30px 0;
@@ -31,6 +32,10 @@ textarea {
 body {
     font: 400 15px/1.8 Lato, sans-serif;
     color: #777;
+}
+
+nav {
+    transition: top 0.5s;
 }
 
 .navbar {
@@ -193,6 +198,10 @@ html {
 
 .bg-1 p {
     font-style: italic;
+}
+
+.bg-2 {
+    background: #f5f5f5;
 }
 
 
